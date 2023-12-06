@@ -1,0 +1,45 @@
+.main {
+  max-width: 100rem;
+
+  margin: 8.6rem auto 3.2rem auto;
+}
+
+.main-img {
+  max-width: 100%;
+}
+
+.titleAndImg {
+  padding: 0 1.8rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 4.8rem;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+}
+
+.about-mainimg {
+  font-size: 1.8rem;
+  margin-top: 4.8rem;
+}
+.products {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2.4rem;
+  padding-bottom: 4.8rem;
+}
+.p {
+  text-align: center;
+}
+.p-img {
+  width: 100%;
+}
+
+.p-text {
+  font-size: 1.8rem;
+  margin-top: 2.4rem;
+}

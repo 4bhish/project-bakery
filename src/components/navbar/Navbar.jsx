@@ -1,6 +1,6 @@
 import React from "react";
 import "../navbar/navbar.css";
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div className="Navbar">
       <h1 className="nav-h1">Site Name</h1>
@@ -12,3 +12,5 @@ export const Navbar = () => {
     </div>
   );
 };
+
+export default Navbar;
