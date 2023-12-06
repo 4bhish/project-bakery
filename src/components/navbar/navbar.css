@@ -5,6 +5,8 @@
   height: 7rem;
   padding: 0 5rem;
   background-color: #e5f0fe;
+  position: sticky;
+  top: 0;
 }
 
 .nav-list {
