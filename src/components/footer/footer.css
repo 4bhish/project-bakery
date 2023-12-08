@@ -7,5 +7,10 @@
 }
 
 .footer-text {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+}
+
+.footer-text .footer-link{
+  color: inherit;
 }
