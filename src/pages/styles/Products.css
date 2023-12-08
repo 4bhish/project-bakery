@@ -1,0 +1,27 @@
+.products-list{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.products-list h1{
+    width: 80%;
+    text-align: center;
+    margin: 5rem auto;
+}
+.products-list h1 span{
+    font-size: 5.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.products-list-para {
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.products-list-para p{
+    margin-top: -4rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 4rem;
+}

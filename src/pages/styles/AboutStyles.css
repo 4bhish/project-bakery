@@ -8,7 +8,7 @@
     text-align: center;
     margin: 5rem auto;
 }
-h1 span{
+.about h1 span{
     font-size: 5.4rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
