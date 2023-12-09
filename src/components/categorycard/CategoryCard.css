@@ -1,0 +1,51 @@
+.categorycard{
+    width: 25rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.categorycard-img-container{
+    width: 100%;
+    margin: 0 auto;
+    height: 50%;
+    
+}
+.categorycard-img-container img{
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+.categorycard-details{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.categorycard-details h4{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    line-height: 1.2;
+}
+.categorycard-details p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+.categorycard button{
+    cursor: pointer;
+    outline: none;
+    border: 0.2rem solid #25D366;
+    width: 100%;
+    height: 4rem;
+    text-transform: uppercase;
+    background: none;
+    transition: background-color .3s;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+.categorycard button:hover{
+    color: var(--color-primary);
+    background-color: #25D366;
+}

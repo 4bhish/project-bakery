@@ -1,0 +1,80 @@
+.homepage{
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+}
+.homepage-heading{
+    width: 80%;
+    text-align: center;
+    margin: 5rem auto;
+}
+.homepage-heading span{
+    background-color: var(--color-primary);
+    font-size: 5.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.homepage-slider-container{
+    z-index: 500;
+    margin: 5rem auto;
+}
+.homepage .car-img{
+    width: 100%;
+    height: 46rem;
+    object-fit: cover;
+}
+/* homepage-category */
+.we-have-container{
+    width: 80%;
+    height: 20rem;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.we-have{
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.we-have h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.we-have p{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.homepage-category{
+    width: 100%;
+    margin: 0 auto 4rem;
+    height:  auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 768px){
+    .homepage{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .homepage .car-img{
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+    }
+    .homepage-category{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .we-have-container{
+        width: 100%;
+    }
+    .we-have{
+        width: 100%;
+    }
+}

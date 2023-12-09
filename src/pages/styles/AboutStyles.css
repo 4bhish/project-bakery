@@ -17,7 +17,7 @@
 /* about-info */
 .about-info{
     width: 80%;
-    height: 40rem;
+    height: auto;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -60,7 +60,7 @@
 
 .about-team{
     width: 80%;
-    height: 25rem;
+    height: auto;
     margin: 5rem auto;
     display: flex;
     justify-content: space-evenly;
@@ -93,3 +93,58 @@
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
 }
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .about{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .about h1 {
+      font-size: 3rem;
+    }
+
+    .about-leftSide{
+        width: 100%;
+    }
+    .about-heading h2 {
+      font-size: 2.5rem;
+    }
+  
+    .about-leftSide p {
+      font-size: 1.5rem;
+      margin-bottom: 3rem;
+    }
+  
+    .about-info {
+        width: 100%;
+        flex-direction: column;
+    }
+  
+    .about-info img {
+      width: 100%;
+      max-width: none;
+    }
+  
+    .about-team {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-team .team-card {
+      width: 65%; 
+      margin-bottom: 2.5rem; 
+    }
+
+    .desc-container{
+        width: 100%;
+    }
+    .desc-container h2 {
+      font-size: 4rem;
+    }
+  
+    .desc-container p {
+      font-size: 1.8rem;
+    }
+  }
+  

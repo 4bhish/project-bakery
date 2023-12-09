@@ -61,12 +61,14 @@ function Products() {
     },
   ];
 
-  function handleBtnClick(product){
-    const phoneNumber = '7798476427'; 
-    const message = `Hi, I'm interested in the  *${product.name}*:\n${product.description}`; 
+  function handleBtnClick(product) {
+    const phoneNumber = "7798476427";
+    const message = `Hi, I'm interested in the  *${product.name}*:\n${product.description}`;
 
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsappUrl, "_blank");
   }
   return (
     <div className="products-list">
@@ -81,7 +83,11 @@ function Products() {
       </div>
       <div className="products-list-container">
         {arrOfProducts.map((product, index) => (
-          <ProductCard key={index} product={product} handleBtnClick={handleBtnClick} />
+          <ProductCard
+            key={index}
+            product={product}
+            handleBtnClick={handleBtnClick}
+          />
         ))}
       </div>
     </div>
