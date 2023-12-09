@@ -60,6 +60,14 @@ function Products() {
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero,possimus nostrum!",
     },
   ];
+
+  function handleBtnClick(product){
+    const phoneNumber = '7798476427'; 
+    const message = `Hi, I'm interested in the  *${product.name}*:\n${product.description}`; 
+
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  }
   return (
     <div className="products-list">
       <h1 className="products-list-heading">
@@ -73,7 +81,7 @@ function Products() {
       </div>
       <div className="products-list-container">
         {arrOfProducts.map((product, index) => (
-          <ProductCard key={index} product={product} />
+          <ProductCard key={index} product={product} handleBtnClick={handleBtnClick} />
         ))}
       </div>
     </div>
