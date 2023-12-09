@@ -3,12 +3,12 @@
     margin: 0 auto;
 }
 
-.products-list h1{
+.products-list .products-list-heading{
     width: 80%;
     text-align: center;
     margin: 5rem auto;
 }
-.products-list h1 span{
+.products-list .products-list-heading span{
     font-size: 5.4rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -24,4 +24,11 @@
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
     margin-bottom: 4rem;
+}
+
+.products-list-container {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
